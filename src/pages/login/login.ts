@@ -20,8 +20,8 @@ export class LoginPage {
 
   doAlert() {
     let alert = this.alertCtrl.create({
-      title: 'Registered',
-      subTitle: 'You are a padawan',
+      title: 'Login',
+      subTitle: 'Hello padawan',
       buttons: ['Ok']
     });
     alert.present();
